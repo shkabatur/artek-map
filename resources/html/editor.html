@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>EditMap</title>
+  </head>
+  <body>
+	<div id="inputs" style="position:absolute;">
+		<ul class="button-group">
+		<li>
+			<button id="load_nodes" name="load_nodes">Load nodes</button>
+		</li>
+		<li>
+			<label for="new_node_name" >Node name:</label>
+			<input type="text" id="new_node_name" name="new_node_name" size="16"/>
+			<button id="change_name" name="change_name">Change</button>
+		</li>
+		<li>
+			<label for="new_node_ip" >Node IP:</label>
+			<input type="text" id="new_node_ip" name="new_node_ip" size="16"/>
+			<button id="change_ip">Change</button>
+		</li>
+		<li>
+			<button id="save_button">Save</button>
+		</li>
+	</div>
+
+    <canvas id="canvas" width="1910" height="859" ></canvas>
+	<script src="js/editor.js"></script>
+  </body>
+</html>
